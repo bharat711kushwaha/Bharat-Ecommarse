@@ -7,7 +7,7 @@ import MyImage from './MyImage';
 import { Container } from '../Style/container';
 import AddToCart from "./AddToCart";
 import FormatPrice from './Helper/FormatePrice';
-const API =  "http://localhost:3000/api/products"; 
+const API =  "https://bharat-ecommarse-2.onrender.com"; 
 import { MdSecurity } from "react-icons/md";
 import { TbTruckDelivery, TbReplace } from "react-icons/tb";
 import Star from './Star';
