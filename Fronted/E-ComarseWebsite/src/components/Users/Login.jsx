@@ -136,7 +136,7 @@ const Login = () => {
   const onSubmit = async e => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:3000/api/users/login', formData);
+      const res = await axios.post('https://bharat-ecommarse-2.onrender.com/api/users/login', formData);
       localStorage.setItem('token', res.data.token);
       setFormData({
         email: '',
