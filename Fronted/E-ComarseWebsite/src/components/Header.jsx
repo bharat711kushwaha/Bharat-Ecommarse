@@ -6,15 +6,13 @@ import Nav from './Nav';
 
 function Header() {
   return (
-    <MainHeader>
+  <MainHeader>
 <NavLink to= "/">
 <img  className= "logo" src='https://t4.ftcdn.net/jpg/06/98/42/51/360_F_698425198_whoHlaEtMymlMpQhHB18KyuVClBVuaTw.jpg' alt =" bharat"/>
 
 
 </NavLink>
-
-        <Nav />
-
+<Nav/>
     </MainHeader>
   )
 };
