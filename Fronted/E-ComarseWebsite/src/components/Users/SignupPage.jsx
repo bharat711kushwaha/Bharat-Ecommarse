@@ -165,7 +165,7 @@ const Register = () => {
    
   
     try {
-      const res = await axios.post('http://localhost:3000/api/users/register', formData);
+      const res = await axios.post('https://bharat-ecommarse-2.onrender.com/api/users/register', formData);
       alert(res.data.msg);
       setFormData({ 
         name: '',
