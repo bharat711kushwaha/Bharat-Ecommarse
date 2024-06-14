@@ -1,8 +1,8 @@
 {
   "name": "e-comarsewebsite",
   "private": true,
-  "version": "0.0.0",
-  "peroxy":"https://localhost:3000" ,
+  "version": "1.0.0",
+  "peroxy":"https://bharat-ecommarse-2.onrender.com" ,
   "type": "module",
   "scripts": {
     "dev": "vite",
