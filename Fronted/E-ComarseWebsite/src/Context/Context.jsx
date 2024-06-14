@@ -3,7 +3,7 @@ import axios from "axios";
 const AppContext = createContext();
 // const API= "https://api.pujakaitem.com/api/products";
 // Set the backend API endpoint
-const API = "http://localhost:3000/api/products"; // Update to your backend URL
+const API = "https://bharat-ecommarse-2.onrender.com"; // Update to your backend URL
 
 // console.log(API);
 import reducer from "../Reducer/ProductReducer"
