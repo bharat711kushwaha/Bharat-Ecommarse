@@ -146,7 +146,7 @@ transition: border-color 0.3s ease;
 `;
 
 
-const Register = () => {
+const Register = ({ onSuccess}) => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -166,20 +166,23 @@ const Register = () => {
   
     try {
       const res = await axios.post('https://bharat-ecommarse-2.onrender.com/api/users/register', formData);
-      alert(res.data.msg);
-      setFormData({ 
-        name: '',
-        email: '',
-        password: ''
-      });
-      navigate('/');
-
-
-
+      if (res.data.success) {
+        alert('Signup successful');
+        localStorage.setItem('token', res.data.token);
+        setFormData({
+          name: '',
+          email: '',
+          password: ''
+        });
+        onSuccess();
+      } else {
+        alert('Signup failed');
+      }
     } catch (err) {
-      alert('Error registering user');
+      alert('Error signing up user');
     }
   };
+
   const navigateToLogin = () => {
     navigate('/login');
     console.log('Navigate to login page');
