@@ -13,7 +13,8 @@ const generateToken = (userId) => {
     },
   };
 
-  return jwt.sign(payload, 'your_jwt_secret', { expiresIn: '50h' });
+  return jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '50h' });
+
 };
 
 // Controller to register a new user
@@ -48,7 +49,8 @@ exports.registerUser = async (req, res) => {
 
     res.json({ token });
   } catch (err) {
-    console.error(err.message);
+    console.error('Error during user registration:', err.message);
+
     res.status(500).send('Server error');
   }
 };
@@ -85,13 +87,3 @@ exports.loginUser = async (req, res) => {
 };
 
 
-// Controller to fetch user data
-exports.getUserData = async (req, res) => {
-  try {
-    const user = await User.findById(req.user.id).select('-password');
-    res.json(user);
-  } catch (err) {
-    console.error(err.message);
-    res.status(500).send('Server error');
-  }
-};
