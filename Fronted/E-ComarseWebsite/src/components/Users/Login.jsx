@@ -119,7 +119,7 @@ transition: border-color 0.3s ease;
 }
 `;
 
-const Login = () => {
+const Login = ({ onSuccess }) => {
   const [formData, setFormData] = useState({
     email: '',
     password: ''
@@ -142,7 +142,7 @@ const Login = () => {
         email: '',
         password: ''
       });
-      navigate('/');
+            onSuccess(); // Call the onSuccess callback
     } catch (err) {
       alert('Error logging in user');
     }
