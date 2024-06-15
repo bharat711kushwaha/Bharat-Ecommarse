@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const auth = require('../Middleware/auth')
-const { registerUser ,loginUser,getUserData } = require('../controllers/userController');
+const { registerUser ,loginUser} = require('../controllers/userController');
 const { body } = require('express-validator');
 ;
   
@@ -10,9 +10,10 @@ const { body } = require('express-validator');
 router.post(
     '/register',
     [
-      body('name', 'Name is required').not().isEmpty(),
-      body('email', 'Please include a valid email').isEmail(),
-      body('password', 'Password must be at least 6 characters').isLength({ min: 6 }),
+      body('name').notEmpty().withMessage('Name is required'),
+body('email').isEmail().withMessage('Please provide a valid email'),
+body('password').isLength({ min: 6 }).withMessage('Password must be at least 6 characters long')
+
     ],
     registerUser
   );
@@ -28,7 +29,7 @@ router.post(
     loginUser
   );
   
-  router.get('/user', auth, getUserData);
+
 
 
 module.exports = router;
