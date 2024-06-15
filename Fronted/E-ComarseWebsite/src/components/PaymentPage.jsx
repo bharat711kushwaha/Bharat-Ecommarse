@@ -13,7 +13,7 @@ const PaymentPage = () => {
 
   const handlePayment = async () => {
     try {
-      const orderUrl = 'http://localhost:3000/api/payment/create-order';
+      const orderUrl = 'https://bharat-ecommarse-2.onrender.com/api/payment/create-order';
       const response = await axios.post(orderUrl, { amount: orderTotal, currency: 'INR' });
 
       const { id, currency, amount } = response.data;
