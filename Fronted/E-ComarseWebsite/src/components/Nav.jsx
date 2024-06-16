@@ -251,7 +251,7 @@ onClick={()=>setMenuIcon(false)}/>
 </div>
 </div>
 <Modal show={showLoginModal ? true : undefined} handleClose={() => setShowLoginModal(false)}>
-<Login onSuccess={handleLoginSignupSuccess} />
+<Login/>
       </Modal>
       <Modal show={showSignupModal ? true : undefined} handleClose={() => setShowSignupModal(false)}>
       <SignupPage onSuccess={handleLoginSignupSuccess} />
