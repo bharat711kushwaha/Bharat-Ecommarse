@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import styled ,{ keyframes } from 'styled-components';
 import { useNavigate } from 'react-router-dom';
+import Modal from '../components/Users/Modal';
 const fadeIn = keyframes`
 from {
   opacity: 0;
