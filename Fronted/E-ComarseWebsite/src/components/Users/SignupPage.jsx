@@ -146,7 +146,7 @@ transition: border-color 0.3s ease;
 `;
 
 
-const Register = ({ onSuccess}) => {
+const Register = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -177,7 +177,7 @@ const onSubmit = async (e) => {
         email: '',
         password: ''
       });
-      navigate("/");
+       navigate('/');
     }
   } catch (err) {
     if (err.response) {
