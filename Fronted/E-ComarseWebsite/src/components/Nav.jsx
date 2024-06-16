@@ -34,11 +34,7 @@ function Nav() {
       navigate('/ProducrCard');
     }
   };
- const handleLoginSignupSuccess = () => {
-    setShowLoginModal(false);
-    setShowSignupModal(false);
-    navigate('/');
-  };
+
   const Nav = styled.nav`
   .navbar-lists {
     display: flex;
@@ -254,7 +250,7 @@ onClick={()=>setMenuIcon(false)}/>
 <Login/>
       </Modal>
       <Modal show={showSignupModal ? true : undefined} handleClose={() => setShowSignupModal(false)}>
-      <SignupPage onSuccess={handleLoginSignupSuccess} />
+      <SignupPage  />
       </Modal>
 
 </Nav>
