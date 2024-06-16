@@ -152,6 +152,8 @@ const Register = () => {
     email: '',
     password: ''
   });
+   const [showSignupModal, setShowSignupModal] = useState(false);
+
   const navigate = useNavigate();
 
   const { name, email, password } = formData;
@@ -171,6 +173,7 @@ const onSubmit = async (e) => {
     } else {
       // Signup successful
       alert('Signup successful');
+      setShowSignupModal(false);
       localStorage.setItem('token', res.data.token);
       setFormData({
         name: '',
