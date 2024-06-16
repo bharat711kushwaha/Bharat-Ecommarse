@@ -160,28 +160,42 @@ const Register = ({ onSuccess}) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const onSubmit = async e => {
-    e.preventDefault();
-   
-  
-    try {
-      const res = await axios.post('https://bharat-ecommarse-2.onrender.com/api/users/register', formData);
-      if (res.data.success) {
-        alert('Signup successful');
-        localStorage.setItem('token', res.data.token);
-        setFormData({
-          name: '',
-          email: '',
-          password: ''
-        });
-        onSuccess();
-      } else {
-        alert('Signup failed');
-      }
-    } catch (err) {
-      alert('Error signing up user');
+const onSubmit = async (e) => {
+  e.preventDefault();
+
+  try {
+    const res = await axios.post('https://bharat-ecommarse-2.onrender.com/api/users/register', formData);
+    if (res.data.msg) {
+      // If there's a message in the response data, it means signup failed
+      alert('Signup failed: ' + res.data.msg);
+    } else {
+      // Signup successful
+      alert('Signup successful');
+      localStorage.setItem('token', res.data.token);
+      setFormData({
+        name: '',
+        email: '',
+        password: ''
+      });
+      navigate("/");
     }
-  };
+  } catch (err) {
+    if (err.response) {
+      // Server responded with a status other than 200 range
+      console.log(err.response.data);
+      alert('Signup failed: ' + err.response.data.message);
+    } else if (err.request) {
+      // Request was made but no response received
+      console.log("no response from server");
+      alert('Signup failed: No response from server');
+    } else {
+      // Something happened in setting up the request
+      console.log(err.message);
+      alert('Signup failed: ' + err.message);
+    }
+  }
+};
+
 
   const navigateToLogin = () => {
     navigate('/login');
