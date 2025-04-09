@@ -2,7 +2,7 @@
     {
     "name": "iphone x",
      "company": "apple", 
-     "price": 6000000,
+     "price": 600000000,
      "colors": ["#ff0000", "#000000", "#CDD0D0"], 
      "image": "https://images.pexels.com/photos/1275229/pexels-photo-1275229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
      "description": "The mobile is compact with its 6.2-inch OLED screen and far lighter at 168g. It perfectly captures the design, looks, and feel of the expensive one. It comes with a snapdragon processor with a 5n chip in it. It has a 200mp camera in the rear 100mp in front perfect for selfie lovers. It also support HDR content means you can watch 4K content on it.",
@@ -15,7 +15,7 @@
     { 
     "name": "samsung s20", 
     "company": "samsung", 
-    "price": 5000000, 
+    "price": 500000000, 
     "colors": ["#000", "#22D3EF"],
      "image": "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", "description": "The mobile is compact with its 6.2-inch OLED screen and far lighter at 168g. It perfectly captures the design, looks, and feel of the expensive one. It comes with a snapdragon processor with a 5n chip in it. It has a 200mp camera in the rear 100mp in front perfect for selfie lovers. It also support HDR content means you can watch 4K content on it.",
       "category": "mobile"
@@ -23,7 +23,7 @@
       "stock":10,"reviews":167,"stars":4.2},
       {"name": "Dell Series",
       "company": "dell", 
-      "price": 600000, 
+      "price": 60000000, 
       "colors": ["#22D3EF", "#CDD0D0"], 
       "image": "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
       "description": "The Laptop is compact with its 6.2-inch OLED screen and far lighter at 168g. It perfectly captures the design, looks, and feel of the expensive one. It comes with a snapdragon processor with a 5n chip in it. It has a 200mp camera in the rear 100mp in front perfect for selfie lovers. It also support HDR content means you can watch 4K content on it.",
@@ -32,7 +32,7 @@
         { 
         "name": "Nokia 420",
          "company": "nokia", 
-         "price": 12599, 
+         "price": 1259900, 
          "colors": ["#000", "#000000", "#CDD0D0"], 
          "image": "https://images.pexels.com/photos/4224099/pexels-photo-4224099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
           "description": "The mobile is compact with its 6.2-inch OLED screen and far lighter at 168g. It perfectly captures the design, looks, and feel of the expensive one. It comes with a snapdragon processor with a 5n chip in it. It has a 200mp camera in the rear 100mp in front perfect for selfie lovers. It also support HDR content means you can watch 4K content on it.", 
@@ -41,7 +41,7 @@
            "stock":7,"reviews":128,"stars":3.8},
            { 
             "name": "Mac Pc",
-            "company": "apple", "price": 4000099,
+            "company": "apple", "price": 400009900,
              "colors": ["#000", "#CDD0D0"],
               "image": "https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", "description": "The Computer is compact with its 6.2-inch OLED screen and far lighter at 168g. It perfectly captures the design, looks, and feel of the expensive one. It comes with a snapdragon processor with a 5n chip in it. It has a 200mp camera in the rear 100mp in front perfect for selfie lovers. It also support HDR content means you can watch 4K content on it.",
                "category": "computer", 
@@ -50,7 +50,7 @@
                { 
                 "name": "Macbook Pro", 
                 "company": "apple",
-                 "price": 42999, 
+                 "price": 4299900, 
                  "colors": ["#000000", "#CDD0D0"], 
                  "image": "https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                   "description": "The Laptop is compact with its 6.2-inch OLED screen and far lighter at 168g. It perfectly captures the design, looks, and feel of the expensive one. It comes with a snapdragon processor with a 5n chip in it. It has a 200mp camera in the rear 100mp in front perfect for selfie lovers. It also support HDR content means you can watch 4K content on it.", 
@@ -59,13 +59,13 @@
                    "stock":16,"reviews":98,"stars":4.8},
                   { "name": "Asus gseries",
                    "company": "asus", 
-                   "price": 23999,
+                   "price": 2399900,
                     "colors": ["#CDD0D0", "#000"], 
                     "image": "https://media.istockphoto.com/id/480743480/photo/responsive-design-mockup.webp?b=1&s=170667a&w=0&k=20&c=6RyOYLlbNVI5n3f8mqgPlDFxhRBDIxOP68l0Nta0VB0=", "description": "The laptop is compact with its 6.2-inch OLED screen and far lighter at 168g. It perfectly captures the design, looks, and feel of the expensive one. It comes with a snapdragon processor with a 5n chip in it. It has a 200mp camera in the rear 100mp in front perfect for selfie lovers. It also support HDR content means you can watch 4K content on it.", "category": "laptop", 
                     "shipping": true ,
                     "stock":8,"reviews":100,"stars":4.8},
                    { "name": "Accessories", 
-                   "price": 1099999,
+                   "price": 109999900,
                     "company": "lenova", 
                     "colors": ["#000", "#CDD0D0"], 
                     "image": "https://images.pexels.com/photos/3178938/pexels-photo-3178938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", "description": "The accessories is compact with its 6.2-inch OLED screen and far lighter at 168g. It perfectly captures the design, looks, and feel of the expensive one. It comes with a snapdragon processor with a 5n chip in it. It has a 200mp camera in the rear 100mp in front perfect for selfie lovers. It also support HDR content means you can watch 4K content on it.",
@@ -74,7 +74,7 @@
                     "shipping": true ,
                     "stock":6,"reviews":518,"stars":4.8},
                     { "name": "Iwatch",
-                     "price": 39999,
+                     "price": 3999900,
                       "company": "apple",
                        "colors": ["#000000"], 
                        "image":"https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGFwcGxlJTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D", "description": "This watch is compact with its 6.2-inch OLED screen and far lighter at 168g. It perfectly captures the design, looks, and feel of the expensive one. It comes with a snapdragon processor with a 5n chip in it. It has a 200mp camera in the rear 100mp in front perfect for selfie lovers. It also support HDR content means you can watch 4K content on it.", 
@@ -84,7 +84,7 @@
                     { 
                     "name": "user need", 
                     "company": "apple", 
-                    "price": 300099, 
+                    "price": 30009900, 
                     "colors": ["#ff0000", "#22D3EF",
                      "#000000"],
                       "image": "https://images.pexels.com/photos/1619651/pexels-photo-1619651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", "description": "The mobile is compact with its 6.2-inch OLED screen and far lighter at 168g. It perfectly captures the design, looks, and feel of the expensive one. It comes with a snapdragon processor with a 5n chip in it. It has a 200mp camera in the rear 100mp in front perfect for selfie lovers. It also support HDR content means you can watch 4K content on it.", "category": "accessories" ,
@@ -92,14 +92,14 @@
                     { 
                     "name": "rolex premium",
                      "company": "rolex",
-                      "price": 999999, 
+                      "price": 99999900, 
                       "colors": ["#000000", "#CDD0D0"], 
                       "image": "https://images.pexels.com/photos/1697214/pexels-photo-1697214.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
                       "description": "This watch is compact with its 6.2-inch OLED screen and far lighter at 168g. It perfectly captures the design, looks, and feel of the expensive one. It comes with a snapdragon processor with a 5n chip in it. It has a 200mp camera in the rear 100mp in front perfect for selfie lovers. It also support HDR content means you can watch 4K content on it.", 
                       "category": "watch",
                       "stock":15,"reviews":228,"stars":4.8 }, 
      { "name": "galaxy w20",
-     "price": 311999, 
+     "price": 31199900, 
       "company": "samsung",
       "colors": ["#22D3EF", "#ff0000", "#000000"],
        "image": "https://images.pexels.com/photos/51011/pexels-photo-51011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
@@ -109,7 +109,7 @@
             "stock":5,"reviews":528,"stars":4.8},
             {
               "name": "Laptop",
-              "price": 799992,
+              "price": 79999200,
               "company": "Dell",
               "colors": ["#000", "#CDD0D0"],
               "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
@@ -121,7 +121,7 @@
             },
             {
               "name": "Smartphone",
-              "price": 69999,
+              "price": 6999900,
               "company": "Samsung",
               "colors": ["#000", "#CDD0D0", "#FFFFFF"],
               "image": "https://images.unsplash.com/photo-1632794716789-42d9995fb5b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c21hcnR3YXRjaHxlbnwwfHwwfHx8MA%3D%3D",
@@ -133,7 +133,7 @@
             },
             {
               "name": "Headphones",
-              "price": 249934,
+              "price": 24993400,
               "company": "Sony",
               "colors": ["#000", "#FFFFFF", "#FF5733"],
               "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGVhZHBob25lfGVufDB8fDB8fHww",
@@ -144,7 +144,7 @@
               "stock":35,"reviews":78,"stars":4.8
             },{
               "name": "Camera",
-              "price": 499991,
+              "price": 49999100,
               "company": "Canon",
               "colors": ["#000", "#CDD0D0", "#FF5733"],
               "image": "https://images.unsplash.com/photo-1552168324-d612d77725e3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2FtZXJhfGVufDB8fDB8fHww",
@@ -156,7 +156,7 @@
             },
             {
               "name": "Smart Watch",
-              "price": 299900,
+              "price": 29990000,
               "company": "Apple",
               "colors": ["#000", "#CDD0D0", "#FF5733"],
               "image": "https://images.unsplash.com/photo-1549482199-bc1ca6f58502?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fFNtYXJ0JTIwV2F0Y2h8ZW58MHx8MHx8fDA%3D",
@@ -168,7 +168,7 @@
             },
             {
               "name": "Speaker",
-              "price": 149900,
+              "price": 14990000,
               "company": "JBL",
               "colors": ["#000", "#CDD0D0", "#FF5733"],
               "image": "https://images.unsplash.com/photo-1608538770329-65941f62f9f8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8U3BlYWtlcnxlbnwwfHwwfHx8MA%3D%3D",
@@ -180,7 +180,7 @@
             },
             {
               "name": "Television",
-              "price": 5999923,
+              "price": 599992300,
               "company": "Sony",
               "colors": ["#000", "#CDD0D0", "#FF5733"],
               "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8VGVsZXZpc2lvbnxlbnwwfHwwfHx8MA%3D%3D",
@@ -192,7 +192,7 @@
             },
             {
               "name": "Gaming Console",
-              "price": 3999999,
+              "price": 399999900,
               "company": "Microsoft",
               "colors": ["#000", "#CDD0D0", "#FF5733"],
               "image": "https://images.unsplash.com/photo-1593118247619-e2d6f056869e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R2FtaW5nJTIwQ29uc29sZXxlbnwwfHwwfHx8MA%3D%3D",
@@ -206,7 +206,7 @@
             
             {
               "name": "Tablet",
-              "price": 2999999,
+              "price": 299999900,
               "company": "Samsung",
               "colors": ["#000", "#CDD0D0", "#FF5733"],
               "image": "https://plus.unsplash.com/premium_photo-1680734656959-d7dd4039bcea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGFibGV0YXxlbnwwfHwwfHx8MA%3D%3D",
@@ -218,7 +218,7 @@
             },
             {
               "name": "Fitness Tracker",
-              "price": 199999,
+              "price": 19999900,
               "company": "Fitbit",
               "colors": ["#000", "#CDD0D0", "#FF5733"],
               "image": "https://plus.unsplash.com/premium_photo-1681433383783-661b519b154a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Rml0bmVzcyUyMFRyYWNrZXJ8ZW58MHx8MHx8fDA%3D",
@@ -230,7 +230,7 @@
             },
             {
               "name": "Wireless Mouse",
-              "price": 149999,
+              "price": 14999900,
               "company": "Logitech",
               "colors": ["#000", "#CDD0D0", "#FF5733"],
               "image": "https://images.unsplash.com/photo-1586349906319-48d20e9d17e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8V2lyZWxlc3MlMjBNb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
@@ -243,7 +243,7 @@
 
             {
   "name": "External Hard Drive",
-  "price": 3999099,
+  "price": 399909900,
   "company": "Seagate",
   "colors": ["#000", "#CDD0D0", "#FF5733"],
   "image": "https://images.unsplash.com/photo-1601737487795-dab272f52420?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RXh0ZXJuYWwlMjBIYXJkJTIwRHJpdmV8ZW58MHx8MHx8fDA%3D",
@@ -255,7 +255,7 @@
 },
 {
   "name": "Smart Bulb",
-  "price": 99999,
+  "price": 9999900,
   "company": "Philips",
   "colors": ["#000", "#CDD0D0", "#FF5733"],
   "image": "https://images.unsplash.com/photo-1661254454741-94b4f0e6ebbb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U21hcnQlMjBCdWxifGVufDB8fDB8fHww",
@@ -267,7 +267,7 @@
 },
 {
   "name": "Wireless Earbuds",
-  "price": 2499,
+  "price": 249900,
   "company": "Apple",
   "colors": ["#000", "#CDD0D0", "#FF5733"],
   "image": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8V2lyZWxlc3MlMjBFYXJidWRzfGVufDB8fDB8fHww",
@@ -279,7 +279,7 @@
 },
 {
   "name": "Monitor",
-  "price": 24999,
+  "price": 2499900,
   "company": "Samsung",
   "colors": ["#000", "#CDD0D0", "#FF5733"],
   "image": "https://plus.unsplash.com/premium_photo-1664699099304-bb9dca94b7c1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -291,7 +291,7 @@
 },
 {
   "name": "Wireless Keyboard",
-  "price": 199999,
+  "price": 19999900,
   "company": "Logitech",
   "colors": ["#000", "#CDD0D0", "#FF5733"],
   "image": "https://images.unsplash.com/photo-1662830857519-2f9b28e3b4ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8V2lyZWxlc3MlMjBLZXlib2FyZHxlbnwwfHwwfHx8MA%3D%3D",
@@ -303,7 +303,7 @@
 },
 {
   "name": "Wireless Router",
-  "price": 299999,
+  "price": 29999900,
   "company": "Netgear",
   "colors": ["#000", "#CDD0D0", "#FF5733"],
   "image": "https://images.unsplash.com/photo-1606904825846-647eb07f5be2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8V2lyZWxlc3MlMjBSb3V0ZXJ8ZW58MHx8MHx8fDA%3D",
@@ -315,7 +315,7 @@
 },
 {
   "name": "Wireless Charger",
-  "price": 149999,
+  "price": 14999900,
   "company": "Anker",
   "colors": ["#000", "#CDD0D0", "#FF5733"],
   "image": "https://images.unsplash.com/photo-1471174466996-0aa69dbda661?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fFdpcmVsZXNzJTIwQ2hhcmdlfGVufDB8fDB8fHww",
